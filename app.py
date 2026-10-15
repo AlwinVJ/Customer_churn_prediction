@@ -1,7 +1,7 @@
 import joblib
 import pandas as pd
 import streamlit as st
-
+import sklearn
 from pathlib import Path
 
 
