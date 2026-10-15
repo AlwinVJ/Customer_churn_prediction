@@ -1,0 +1,23 @@
+# Conda environment
+conda_env/
+customer-churn
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Trained models
+models/*.pkl
+models/*.joblib
+
+# Processed data
+data/processed/
+
+# Environment variables
+.env
+
+# IDE settings
+.vscode/
