@@ -11,7 +11,8 @@ __pycache__/
 
 # Trained models
 models/*.pkl
-models/*.joblib
+# Keep the trained model required by the Streamlit application
+!models/customer_churn_pipeline.joblib
 
 # Processed data
 data/processed/
